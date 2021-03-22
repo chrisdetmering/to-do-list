@@ -1,0 +1,43 @@
+#container {
+    height: 100vh;
+    width: 100vh;
+    margin-left: 50%;
+    background-image: url(paper.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.toDoTitle {
+    margin-left: 40%;
+    margin-top: 12%;
+    position: absolute;
+    transform: rotate(-1deg);
+    font-family: Chalkduster, fantasy;
+    font-size: medium;
+}
+
+body {
+    background-color: skyblue;
+}
+
+#toDoAppend {
+    margin-left: 10%;
+    margin-top: 10%;
+    position: absolute;
+    font-family: Chalkduster, fantasy;
+    font-size: 50px;
+}
+
+#toDoItem {
+    width: 400px;
+    height: 25px;
+}
+
+#addButton {
+    width: 100px;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: Chalkboard, fantasy;
+}
