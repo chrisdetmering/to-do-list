@@ -29,15 +29,31 @@ body {
     font-size: 50px;
 }
 
-#toDoItem {
+#addItem {
     width: 400px;
-    height: 25px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: medium;
 }
 
 #addButton {
     width: 100px;
     height: 45px;
     font-size: 25px;
-    border-radius: 10px;
+    border-radius: 15px;
     font-family: Chalkboard, fantasy;
+    background-color: #f0ecc5;
+    color: rgb(18, 90, 18);
+}
+
+#myList {
+    margin-left: 25%;
+    margin-top: 18%;
+    height: 100vh;
+    width: 65vh;
+    font-family: Chalkduster, fantasy;
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    align-content: left;
 }
