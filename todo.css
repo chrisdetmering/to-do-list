@@ -1,10 +1,7 @@
 #container {
     height: 100vh;
     width: 100vh;
-    margin-left: 50%;
-    background-image: url(paper.png);
-    background-position: center;
-    background-size: cover;
+    margin-left: 40%;
     position: relative;
 }
 
@@ -18,7 +15,7 @@
 }
 
 body {
-    background-color: skyblue;
+    background-color:lightgrey;g
 }
 
 #toDoAppend {
@@ -42,18 +39,19 @@ body {
     font-size: 25px;
     border-radius: 15px;
     font-family: Chalkboard, fantasy;
-    background-color: #f0ecc5;
-    color: rgb(18, 90, 18);
+    background-color:rgb(92, 91, 88);
+    color: white;
 }
 
 #myList {
     margin-left: 25%;
     margin-top: 18%;
     height: 100vh;
-    width: 65vh;
+    width: 80vh;
     font-family: Chalkduster, fantasy;
-    font-size: 15px;
+    font-size:x-large;
     color: black;
     position: absolute;
     align-content: left;
+    line-height: 50px;;
 }
