@@ -2,6 +2,7 @@ const button = document.getElementById('addButton');
 button.addEventListener('click', addItem)
 
 const text = document.getElementById("textContent").addEventListener("keyup", function (e) {
+    e.preventDefault();
     if (e.keyCode === 13) {
         addItem();
     }
